@@ -1,2 +1,1 @@
-# clear-chrome-extension
- 
+# Clear Chrome Extension
