@@ -2,7 +2,14 @@
   "name": "Clear",
   "version": "1.0.0",
   "description": "Protect your vision!",
-  "permissions": ["storage", "tabs", "activeTab"],
+  "permissions": [
+    "storage",
+    "notifications",
+    "alarms"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
     "default_icon": {
       "16": "assets/ext-icon.png",
