@@ -5,10 +5,10 @@ Google Chrome Extension that uses the 20/20/20 rule to remind users to take a br
 ## App Demo
 
 ### Toggle Timer
-![](assets/timer.mp4)
+https://github.com/k3shen/clear-chrome-extension/assets/42781149/351b1f71-2a3b-49b6-8989-88c6179b33b4
 
 ### Timer Notification
-![](assets/notif.mp4)
+https://github.com/k3shen/clear-chrome-extension/assets/42781149/e456afd4-9714-41da-b4cf-99c3bcb9162e
 
 ### Home Screen
 ![](assets/home.png)
