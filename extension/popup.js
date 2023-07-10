@@ -179,7 +179,7 @@ const validateUser = async (username, password) => {
         return;
     }
     try {
-        const response = await fetch(`http://localhost:3000/api/users/${userValue}/${passValue}`, {
+        const response = await fetch(`https://clear-chrome-extension.icypebble-d18ec55d.westus.azurecontainerapps.io/api/users/${userValue}/${passValue}`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
@@ -226,7 +226,7 @@ const createUser = async (username, password, confirmPassword) => {
         return;
     }
     try {
-        const response = await fetch(`http://localhost:3000/api/users`, {
+        const response = await fetch(`https://clear-chrome-extension.icypebble-d18ec55d.westus.azurecontainerapps.io/api/users`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -283,7 +283,7 @@ const updateUserInfo = async (first=false) => {
 
 const startTimers = (interval) => {
     chrome.alarms.create("timer", {
-        when: Date.now() + (30*1000)
+        when: Date.now() + (5*1000)
     })
     chrome.alarms.create("countdown", {
         when: Date.now() + 500
